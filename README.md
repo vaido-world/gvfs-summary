@@ -26,3 +26,18 @@ Compile GSettings-Desktop-Schemas "41"
 echo '\n' | MakeRecipe "GVFS" "1.48.1" "https://gitlab.gnome.org/GNOME/gvfs/-/archive/master/gvfs-master.tar.bz2"
 Compile "GVFS" "1.48.1"
 ```
+
+## Disable the systemd for the GVfs Recipe
+```
+compile_version=017-GIT
+url="https://gitlab.gnome.org/GNOME/gvfs/-/archive/master/gvfs-master.tar.bz2"
+file_size=1419548
+file_md5=63b79a71337b6b76c6d82b4b136d55e9
+dir='gvfs-master'
+recipe_type=meson
+meson_variables=(
+        "-Dsystemduserunitdir=no"
+        "-Dtmpfilesdir=no"
+ )
+
+```
