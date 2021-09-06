@@ -29,6 +29,9 @@ Compile GSettings-Desktop-Schemas "41"
 
 echo '\n' | MakeRecipe "GVFS" "1.48.1" "https://gitlab.gnome.org/GNOME/gvfs/-/archive/master/gvfs-master.tar.bz2"
 nano /Data/Compile/Recipes/GVFS/1.48.1/Recipe
+# echo -e "Hello, world\n
+# printf "\nTEXT HERE\n$(ls)" >> lists.txt
+Bash scripting is awesome\nThis is a new line" >> multiple.txt
 Compile "GVFS" "1.48.1"
 ```
 
