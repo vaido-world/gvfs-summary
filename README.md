@@ -49,3 +49,11 @@ meson_variables=(
  )
 
 ```
+
+```
+printf "\nmeson_variables=(
+        "-Dsystemduserunitdir=no"
+        "-Dtmpfilesdir=no"
+ )" >> /Data/Compile/Recipes/GVFS/1.48.1/Recipe
+
+```
