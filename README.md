@@ -33,8 +33,10 @@ ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/p/policykit-1/libp
 echo '\n' | MakeRecipe "GSettings-Desktop-Schemas" "41" "https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas/-/archive/master/gsettings-desktop-schemas-master.tar.bz2"
 Compile GSettings-Desktop-Schemas "41"
 
-echo '\n' | MakeRecipe "GVFS" "1.48.1" "https://gitlab.gnome.org/GNOME/gvfs/-/archive/master/gvfs-master.tar.bz2"
+InstallPackage "https://github.com/vaido-world/Resolving-GVfs/raw/main/Gcr/Gcr--3.12.0--x86_64.tar.bz2"
 
+
+echo '\n' | MakeRecipe "GVFS" "1.48.1" "https://gitlab.gnome.org/GNOME/gvfs/-/archive/master/gvfs-master.tar.bz2"
 
 printf "\nmeson_variables=(
         "-Dsystemduserunitdir=no"
