@@ -72,3 +72,39 @@ printf "\nmeson_variables=(
  )" >> /Data/Compile/Recipes/GVFS/1.48.1/Recipe
 
 ```
+
+
+## Environment variables 
+Set the pkgcofig for polkit
+
+```
+Run-time dependency libcap found: YES 2.27
+Found CMake: /usr/bin/cmake (3.16.4)
+Appending CXXFLAGS from environment: '-O2 -fomit-frame-pointer -pipe'
+Run-time dependency polkit-gobject-1 found: NO (tried pkgconfig and cmake)
+
+meson.build:306:2: ERROR: Dependency "polkit-gobject-1" not found, tried pkgconfig and cmake
+
+A full log can be found at /Data/Compile/Sources/gvfs-master/_build/meson-logs/meson-log.txt
+Compile: GVFS 1.48.1 - Build failed.
+
+
+```
+
+
+```
+root@LiveCD ~]find / -name "*polkit-gobject*"
+/Data/Compile/Sources/gvfs-master/_build/meson-private/cmake_polkit-gobject-1
+/Data/Variable/run/overlayfs/Programs/LibPolkit-Gobject-1-Dev/0.105_31/lib/x86_64-linux-gnu/libpolkit-gobject-1.so
+/Data/Variable/run/overlayfs/Programs/LibPolkit-Gobject-1-Dev/0.105_31/lib/x86_64-linux-gnu/pkgconfig/polkit-gobject-1.pc
+/Data/Variable/run/overlayfs/Programs/LibPolkit-Gobject-1-Dev/0.105_31/lib/x86_64-linux-gnu/libpolkit-gobject-1.a
+/Data/Variable/run/overlayfs/Programs/LibPolkit-Gobject-1-Dev/0.105_31/share/doc/libpolkit-gobject-1-dev
+/Data/Variable/run/overlayfs/System/Index/share/doc/libpolkit-gobject-1-dev
+/Data/Variable/run/overlayfs/Data/Compile/Sources/gvfs-master/_build/meson-private/cmake_polkit-gobject-1
+/Programs/LibPolkit-Gobject-1-Dev/0.105_31/lib/x86_64-linux-gnu/libpolkit-gobject-1.so
+/Programs/LibPolkit-Gobject-1-Dev/0.105_31/lib/x86_64-linux-gnu/pkgconfig/polkit-gobject-1.pc
+/Programs/LibPolkit-Gobject-1-Dev/0.105_31/lib/x86_64-linux-gnu/libpolkit-gobject-1.a
+/Programs/LibPolkit-Gobject-1-Dev/0.105_31/share/doc/libpolkit-gobject-1-dev
+/System/Index/share/doc/libpolkit-gobject-1-dev
+
+```
