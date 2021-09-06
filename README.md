@@ -9,6 +9,7 @@ Live CD seem to contain preinstalled broken GLib 2.68.4 and must be reinstalled.
 ```
 Compile "anything"
 
+
 echo '\n' | MakeRecipe "GLib" "2.68.4" "https://gitlab.gnome.org/GNOME/glib/-/archive/2.68.4/glib-2.68.4.tar.bz2"
 
 InstallPackage --same "remove" "https://github.com/vaido-world/resolving-util-linux/raw/main/Util-Linux--2.35.1--x86_64.tar.bz2"
@@ -22,6 +23,7 @@ Compile "GLib" "2.68.4"
 
 Compile "nothing"
 
+InstallPackage --same "remove" "https://github.com/vaido-world/resolving-util-linux/raw/main/Util-Linux--2.35.1--x86_64.tar.bz2"
 InstallPackage --same "remove" "https://github.com/vaido-world/Resolving-GLib/raw/main/GLib--2.68.4--x86_64.tar.bz2"
 
 InstallPackage ThirdPartyInstallers
