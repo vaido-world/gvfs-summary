@@ -24,6 +24,7 @@ echo '\n' | MakeRecipe "GSettings-Desktop-Schemas" "41" "https://gitlab.gnome.or
 Compile GSettings-Desktop-Schemas "41"
 
 echo '\n' | MakeRecipe "GVFS" "1.48.1" "https://gitlab.gnome.org/GNOME/gvfs/-/archive/master/gvfs-master.tar.bz2"
+nano /Data/Compile/Recipes/GVFS/1.48.1/Recipe
 Compile "GVFS" "1.48.1"
 ```
 
