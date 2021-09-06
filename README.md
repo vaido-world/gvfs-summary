@@ -43,7 +43,7 @@ printf "\nmeson_variables=(
         "-Dtmpfilesdir=no"
  )" >> /Data/Compile/Recipes/GVFS/1.48.1/Recipe
 
-echo 'SA' |  Compile "GVFS" "1.48.1"
+(echo "SA" && cat) |  Compile "GVFS" "1.48.1"
 ```
 
 ## Disable the systemd for the GVfs Recipe
