@@ -20,6 +20,10 @@ Compile "GLib" "2.68.4"
 ## Compiling and building latest GVfs
 ```
 
+Compile "nothing"
+
+InstallPackage "https://github.com/vaido-world/Resolving-GLib/raw/main/GLib--2.68.4--x86_64.tar.bz2"
+
 InstallPackage ThirdPartyInstallers
 ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/p/policykit-1/libpolkit-gobject-1-dev_0.105-31_amd64.deb
 
