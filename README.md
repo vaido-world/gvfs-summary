@@ -20,6 +20,10 @@ Compile "GLib" "2.68.4"
 ## Compiling and building latest GVfs
 ```
 
+InstallPackage ThirdPartyInstallers
+ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/p/policykit-1/libpolkit-gobject-1-dev_0.105-31_amd64.deb
+
+
 echo '\n' | MakeRecipe "GSettings-Desktop-Schemas" "41" "https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas/-/archive/master/gsettings-desktop-schemas-master.tar.bz2"
 Compile GSettings-Desktop-Schemas "41"
 
