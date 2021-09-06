@@ -28,10 +28,13 @@ echo '\n' | MakeRecipe "GSettings-Desktop-Schemas" "41" "https://gitlab.gnome.or
 Compile GSettings-Desktop-Schemas "41"
 
 echo '\n' | MakeRecipe "GVFS" "1.48.1" "https://gitlab.gnome.org/GNOME/gvfs/-/archive/master/gvfs-master.tar.bz2"
-nano /Data/Compile/Recipes/GVFS/1.48.1/Recipe
-# echo -e "Hello, world\n
-# printf "\nTEXT HERE\n$(ls)" >> lists.txt
-Bash scripting is awesome\nThis is a new line" >> multiple.txt
+
+
+printf "\nmeson_variables=(
+        "-Dsystemduserunitdir=no"
+        "-Dtmpfilesdir=no"
+ )" >> /Data/Compile/Recipes/GVFS/1.48.1/Recipe
+
 Compile "GVFS" "1.48.1"
 ```
 
@@ -48,6 +51,10 @@ meson_variables=(
         "-Dtmpfilesdir=no"
  )
 
+```
+
+```
+nano /Data/Compile/Recipes/GVFS/1.48.1/Recipe
 ```
 
 ```
