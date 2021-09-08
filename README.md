@@ -26,7 +26,10 @@ Compile "nothing"
 InstallPackage --same "remove"  --unmanaged install "https://github.com/vaido-world/resolving-util-linux/raw/main/Util-Linux--2.35.1--x86_64.tar.bz2"
 InstallPackage "https://github.com/vaido-world/Resolving-GLib/raw/main/GLib--2.68.4--x86_64.tar.bz2"
 
-echo '\n' | InstallPackage ThirdPartyInstallers
+  InstallPackage Cpio 2.12
+  InstallPackage Dpkg 1.18.18
+  InstallPackage RPM 5.3.5
+(echo '\n'  && cat) | InstallPackage ThirdPartyInstallers
 ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/p/policykit-1/libpolkit-gobject-1-dev_0.105-31_amd64.deb
 
 
