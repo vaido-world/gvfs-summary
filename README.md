@@ -108,3 +108,5 @@ root@LiveCD ~]find / -name "*polkit-gobject*"
 /System/Index/share/doc/libpolkit-gobject-1-dev
 
 ```
+
+https://github.com/vaido-world/Resolving-mozjs/blob/main/README.md#pkg_config_path
