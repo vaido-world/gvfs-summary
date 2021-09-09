@@ -28,10 +28,10 @@ InstallPackage "https://github.com/vaido-world/Resolving-GLib/raw/main/GLib--2.6
 
   InstallPackage Cpio 2.12
   InstallPackage Dpkg 1.18.18
-  InstallPackage RPM 5.3.5
+  InstallPackage RPM 5.3.5 --unmanaged install
   InstallPackage BeeCrypt 4.2.1
   InstallPackage Neon 0.30.0
-(echo '\n'  && cat) | InstallPackage ThirdPartyInstallers --unmanaged install
+(echo '\n'  && cat) | InstallPackage ThirdPartyInstallers 
 ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/p/policykit-1/libpolkit-gobject-1-dev_0.105-31_amd64.deb
 
 
