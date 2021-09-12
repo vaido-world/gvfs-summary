@@ -223,6 +223,21 @@ ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/e/elogind/libelogi
 ```
 
 
+###
+```
+Run-time dependency libimobiledevice-1.0 found: NO (tried pkgconfig and cmake)
+
+meson.build:360:2: ERROR: Dependency "libimobiledevice-1.0" not found, tried pkgconfig and cmake
+
+A full log can be found at /Data/Compile/Sources/gvfs-master/_build/meson-logs/meson-log.txt
+Compile: GVFS 1.48.1 - Build failed.
+root@LiveCD ~]Run-time dependency libimobiledevice-1.0 found: NO (tried pkgconfig and cmake)
+
+meson.build:360:2: ERROR: Dependency "libimobiledevice-1.0" not found, tried pkgconfig and cmake
+
+```
+
+
 ### MozJs dependency on Polkit that is required by GVfs
 https://forums.gentoo.org/viewtopic-p-8377370.html?sid=1d8e240d9a7c136fb56f467701353638#8377370
 https://gitlab.freedesktop.org/polkit/polkit/-/issues/116#note_409753
