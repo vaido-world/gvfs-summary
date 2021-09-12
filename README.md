@@ -35,7 +35,7 @@ InstallPackage "https://github.com/vaido-world/Resolving-GLib/raw/main/GLib--2.6
   InstallPackage BeeCrypt 4.2.1
   InstallPackage Neon 0.30.0
 (echo '\n'  && cat) | InstallPackage ThirdPartyInstallers 
-ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/p/policykit-1/libpolkit-gobject-1-dev_0.105-31_amd64.deb
+ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/p/policykit-1/libpolkit-gobject-1-dev_0.119-1_amd64.deb
 
 
 (echo 'n'  && cat) | MakeRecipe "GSettings-Desktop-Schemas" "41" "https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas/-/archive/master/gsettings-desktop-schemas-master.tar.bz2"
@@ -125,6 +125,7 @@ nano /Data/Compile/Recipes/GVFS/1.48.1/Recipe
 
 ```
 environment=(
-   export PKG_CONFIG_PATH=/Programs/LibPolkit-Gobject-1-Dev/0.105_31/lib/x86_64-linux-gnu/pkgconfig
+   export PKG_CONFIG_PATH=/Programs/LibPolkit-Gobject-1-Dev/0.119_1/lib/x86_6>
 )
+
 ```
