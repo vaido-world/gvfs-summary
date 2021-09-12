@@ -34,7 +34,7 @@ InstallPackage "https://github.com/vaido-world/Resolving-GLib/raw/main/GLib--2.6
     InstallPackage BeeCrypt 4.2.1
     InstallPackage Neon 0.30.0
   InstallPackage RPM 5.3.5 --unmanaged install
-(echo '\n'  && cat) | InstallPackage ThirdPartyInstallers 
+echo | InstallPackage ThirdPartyInstallers 
 ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/p/policykit-1/libpolkit-gobject-1-dev_0.119-1_amd64.deb
 
 
@@ -44,7 +44,7 @@ Compile GSettings-Desktop-Schemas "41"
 InstallPackage "https://github.com/vaido-world/Resolving-GVfs/raw/main/Gcr/Gcr--3.12.0--x86_64.tar.bz2"
 
 
-(echo 'n'  && cat) |  MakeRecipe "GVFS" "1.48.1" "https://gitlab.gnome.org/GNOME/gvfs/-/archive/master/gvfs-master.tar.bz2"
+printf "n" |  MakeRecipe "GVFS" "1.48.1" "https://gitlab.gnome.org/GNOME/gvfs/-/archive/master/gvfs-master.tar.bz2"
 
 printf "\nmeson_variables=(
         "-Dsystemduserunitdir=no"
@@ -55,13 +55,15 @@ printf "\nmeson_variables=(
 ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/libg/libgudev/libgudev-1.0-dev_237-2_amd64.deb
 ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/u/udisks2/libudisks2-dev_2.9.3-1_amd64.deb
 ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/e/elogind/libelogind-dev_246.9.1-1+debian1_amd64.deb
+ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/libi/libimobiledevice/libimobiledevice-dev_1.3.0-6_amd64.deb
 
 
 printf "\nenvironment=(
    export PKG_CONFIG_PATH="/Programs/LibPolkit-Gobject-1-Dev/0.119_1/lib/x86_64-linux-gnu/pkgconfig:\
 /Programs/LibGudev-1.0-Dev/237_2/lib/x86_64-linux-gnu/pkgconfig:\
 /Programs/LibUdisks2-Dev/2.9.3_1/lib/x86_64-linux-gnu/pkgconfig:\
-/Programs/LibElogind-Dev/246.9.1_1+debian1/lib/x86_64-linux-gnu/pkgconfig"
+/Programs/LibElogind-Dev/246.9.1_1+debian1/lib/x86_64-linux-gnu/pkgconfig:\
+/Programs/LibImobiledevice-Dev/1.3.0_6/lib/x86_64-linux-gnu/pkgconfig"
 
 
 )"  >> /Data/Compile/Recipes/GVFS/1.48.1/Recipe
@@ -236,6 +238,7 @@ root@LiveCD ~]Run-time dependency libimobiledevice-1.0 found: NO (tried pkgconfi
 meson.build:360:2: ERROR: Dependency "libimobiledevice-1.0" not found, tried pkgconfig and cmake
 
 ```
+
 
 
 ### MozJs dependency on Polkit that is required by GVfs
