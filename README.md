@@ -60,8 +60,8 @@ ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/e/elogind/libelogi
 printf "\nenvironment=(
    export PKG_CONFIG_PATH="/Programs/LibPolkit-Gobject-1-Dev/0.119_1/lib/x86_64-linux-gnu/pkgconfig:\
 /Programs/LibGudev-1.0-Dev/237_2/lib/x86_64-linux-gnu/pkgconfig:\
-/Programs/LibUdisks2-Dev/2.9.3_1/lib/x86_64-linux-gnu/pkgconfig":\
-/Programs/LibElogind-Dev/246.9.1_1+debian1/lib/x86_64-linux-gnu/pkgconfig
+/Programs/LibUdisks2-Dev/2.9.3_1/lib/x86_64-linux-gnu/pkgconfig:\
+/Programs/LibElogind-Dev/246.9.1_1+debian1/lib/x86_64-linux-gnu/pkgconfig"
 
 
 )"  >> /Data/Compile/Recipes/GVFS/1.48.1/Recipe
