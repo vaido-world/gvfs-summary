@@ -119,3 +119,12 @@ root@LiveCD ~]find / -name "*polkit-gobject*"
 
 https://github.com/vaido-world/Resolving-mozjs/blob/main/README.md#pkg_config_path
 
+```
+nano /Data/Compile/Recipes/GVFS/1.48.1/Recipe
+```
+
+```
+environment=(
+   export PKG_CONFIG_PATH=/Programs/LibPolkit-Gobject-1-Dev/0.105_31/lib/x86_64-linux-gnu/pkgconfig
+)
+```
