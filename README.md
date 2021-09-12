@@ -68,7 +68,7 @@ printf "\nenvironment=(
 /Programs/LibElogind-Dev/246.9.1_1+debian1/lib/x86_64-linux-gnu/pkgconfig:\
 /Programs/LibImobiledevice-Dev/1.3.0_6/lib/x86_64-linux-gnu/pkgconfig:\
 /Programs/LibPlist-Dev/2.2.0_6/lib/x86_64-linux-gnu/pkgconfig:\
-/Programs/LibUsbmuxd-Dev/2.0.2_3/lib/x86_64-linux-gnu/pkgconfig
+/Programs/LibUsbmuxd-Dev/2.0.2_3/lib/x86_64-linux-gnu/pkgconfig"
 
 
 
