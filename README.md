@@ -161,8 +161,32 @@ meson_variables=(
  )
 
 environment=(
-   export PKG_CONFIG_PATH=/Programs/LibPolkit-Gobject-1-Dev/0.119_1/lib/x86_6>
+   export PKG_CONFIG_PATH="/Programs/LibPolkit-Gobject-1-Dev/0.119_1/lib/x86_64-linux-gnu/pkgconfig:\
+/Programs/LibGudev-1.0-Dev/237_2/lib/x86_64-linux-gnu/pkgconfig:\
+/Programs/LibUdisks2-Dev/2.9.3_1/lib/x86_64-linux-gnu/pkgconfig"
 
 )
+
+
+```
+
+```
+Run-time dependency libsoup-2.4 found: YES 2.68.4
+Run-time dependency avahi-client found: YES 0.8
+Run-time dependency avahi-glib found: YES 0.8
+Run-time dependency gudev-1.0 found: YES 237
+Run-time dependency fuse3 found: YES 3.9.0
+Run-time dependency udisks2 found: YES 2.9.3
+Found CMake: /usr/bin/cmake (3.16.4)
+Appending CXXFLAGS from environment: '-O2 -fomit-frame-pointer -pipe'
+Run-time dependency libsystemd found: NO (tried pkgconfig and cmake)
+Run-time dependency libelogind found: NO (tried pkgconfig and cmake)
+
+meson.build:353:2: ERROR: Assert failed: logind requested but libsystemd nor libelogind not found
+
+A full log can be found at /Data/Compile/Sources/gvfs-master/_build/meson-logs/meson-log.txt
+Compile: GVFS 1.48.1 - Build failed.
+root@LiveCD ~]echo $CXXFLAGS
+-O2 -fomit-frame-pointer -pipe
 
 ```
