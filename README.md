@@ -251,3 +251,8 @@ meson.build:360:2: ERROR: Dependency "libimobiledevice-1.0" not found, tried pkg
 https://forums.gentoo.org/viewtopic-p-8377370.html?sid=1d8e240d9a7c136fb56f467701353638#8377370
 https://gitlab.freedesktop.org/polkit/polkit/-/issues/116#note_409753
 https://gitlab.freedesktop.org/polkit/polkit/-/merge_requests/35#note_697514
+
+
+
+# libgoa
+https://www.google.com/search?q=libgoa-1.0+dev&client=firefox-b-d&ei=9l4-YZKZEIOTrwSu9peQDw&oq=libgoa-1.0+dev&gs_lcp=Cgdnd3Mtd2l6EANKBAhBGAFQw15Y9WBgzGRoAXAAeACAAV6IAY8CkgEBM5gBAKABAcABAQ&sclient=gws-wiz&ved=0ahUKEwiS7ISkn_ryAhWDyYsKHS77BfIQ4dUDCA0&uact=5
