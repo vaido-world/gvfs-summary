@@ -32,6 +32,7 @@ InstallPackage "https://github.com/vaido-world/Resolving-GLib/raw/main/GLib--2.6
   InstallPackage Cpio 2.12
   InstallPackage Dpkg 1.18.18
   InstallPackage RPM 5.3.5 --unmanaged install
+  echo Installing Packages
   InstallPackage BeeCrypt 4.2.1
   InstallPackage Neon 0.30.0
 (echo '\n'  && cat) | InstallPackage ThirdPartyInstallers 
