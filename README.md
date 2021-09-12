@@ -129,3 +129,9 @@ environment=(
 )
 
 ```
+
+
+```
+ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/libg/libgudev/gir1.2-gudev-1.0_237-2_amd64.deb
+
+```
