@@ -202,3 +202,9 @@ https://www.google.com/search?q=disable+logind+meson&oq=disable+logind+meson+&aq
 ```
 ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/e/elogind/libelogind-dev_246.9.1-1+debian1_amd64.deb
 ```
+
+
+### MozJs dependency on Polkit that is required by GVfs
+https://forums.gentoo.org/viewtopic-p-8377370.html?sid=1d8e240d9a7c136fb56f467701353638#8377370
+https://gitlab.freedesktop.org/polkit/polkit/-/issues/116#note_409753
+https://gitlab.freedesktop.org/polkit/polkit/-/merge_requests/35#note_697514
