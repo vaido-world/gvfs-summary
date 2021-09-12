@@ -138,3 +138,31 @@ ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/libg/libgudev/libg
 
 
 -dev versions and lib are important of the deb file naming, they include pkgconfig .pc files 
+
+
+```
+ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/u/udisks2/libudisks2-dev_2.9.3-1_amd64.deb
+
+```
+
+
+```
+compile_version=017-GIT
+url="https://gitlab.gnome.org/GNOME/gvfs/-/archive/master/gvfs-master.tar.bz2"
+file_size=1418047
+file_md5=728026f285f36ff584046a6b36307685
+dir='gvfs-master'
+recipe_type=meson
+
+meson_variables=(
+        -Dsystemduserunitdir=no
+        -Dtmpfilesdir=no
+
+ )
+
+environment=(
+   export PKG_CONFIG_PATH=/Programs/LibPolkit-Gobject-1-Dev/0.119_1/lib/x86_6>
+
+)
+
+```
