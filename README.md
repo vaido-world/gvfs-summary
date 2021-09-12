@@ -190,3 +190,7 @@ root@LiveCD ~]echo $CXXFLAGS
 -O2 -fomit-frame-pointer -pipe
 
 ```
+
+
+### Disable libsystemd
+https://forums.gentoo.org/viewtopic-p-8605365.html?sid=b4f05bf4ce09ed17223919cb5ce46bda
