@@ -132,6 +132,9 @@ environment=(
 
 
 ```
-ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/libg/libgudev/gir1.2-gudev-1.0_237-2_amd64.deb
+ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/libg/libgudev/libgudev-1.0-dev_237-2_amd64.deb
 
 ```
+
+
+-dev versions and lib are important of the deb file naming, they include pkgconfig .pc files 
