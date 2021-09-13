@@ -59,6 +59,8 @@ ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/e/elogind/libelogi
 ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/libi/libimobiledevice/libimobiledevice-dev_1.3.0-6_amd64.deb
 ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/libp/libplist/libplist-dev_2.2.0-6_amd64.deb
 ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/g/gnome-online-accounts/libgoa-1.0-dev_3.40.0-2_amd64.deb
+ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/libb/libbluray/libbluray-dev_1.1.0-1_amd64.deb
+
 
 
 
@@ -70,7 +72,8 @@ printf "\nenvironment=(
 /Programs/LibImobiledevice-Dev/1.3.0_6/lib/x86_64-linux-gnu/pkgconfig:\
 /Programs/LibPlist-Dev/2.2.0_6/lib/x86_64-linux-gnu/pkgconfig:\
 /Programs/LibUsbmuxd-Dev/2.0.2_3/lib/x86_64-linux-gnu/pkgconfig:\
-/Programs/LibGoa-1.0-Dev/3.40.0_2/lib/x86_64-linux-gnu/pkgconfig"
+/Programs/LibGoa-1.0-Dev/3.40.0_2/lib/x86_64-linux-gnu/pkgconfig:\
+/Programs/LibBluray-Dev/1:1.1.0_1/lib/x86_64-linux-gnu/pkgconfig"
 
 
 )"  >> /Data/Compile/Recipes/GVFS/1.48.1/Recipe
