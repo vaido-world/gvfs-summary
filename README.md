@@ -295,3 +295,19 @@ https://github.com/rdp/ffmpeg-windows-build-helpers/issues/267#issuecomment-3370
 
 
 https://stackoverflow.com/questions/11303730/pkg-config-cannot-find-pc-files-although-they-are-in-the-path/11309122#11309122
+
+### LibBlueray is not found due to colon in the version name. 
+Pkg config seperates at the point of colon, therefore.
+```
+export PKG_CONFIG_PATH=/Programs/LibBluray-Dev/1:1.1.0_1/lib/x86_64-linux-gnu/pkgconfig
+pkg-config --modversion libbluray
+```
+This is interpreted as 
+```
+/Programs/LibBluray-Dev/1:  
+1.1.0_1/lib/x86_64-linux-gnu/pkgconfig  
+```
+
+
+
+
