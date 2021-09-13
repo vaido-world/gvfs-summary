@@ -285,3 +285,6 @@ libbluray.pc
 /Programs/LibBluray-Dev/1:1.1.0_1/lib/x86_64-linux-gnu/pkgconfig/libbluray.pc
 
 ```
+
+
+https://stackoverflow.com/questions/11303730/pkg-config-cannot-find-pc-files-although-they-are-in-the-path
