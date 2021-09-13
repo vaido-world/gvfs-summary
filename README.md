@@ -73,7 +73,7 @@ printf "\nenvironment=(
 /Programs/LibPlist-Dev/2.2.0_6/lib/x86_64-linux-gnu/pkgconfig:\
 /Programs/LibUsbmuxd-Dev/2.0.2_3/lib/x86_64-linux-gnu/pkgconfig:\
 /Programs/LibGoa-1.0-Dev/3.40.0_2/lib/x86_64-linux-gnu/pkgconfig:\
-/Programs/LibBluray-Dev/1:1.1.0_1/lib/x86_64-linux-gnu/pkgconfig"
+/Programs/LibBluray-Dev/1.1.0/lib/x86_64-linux-gnu/pkgconfig"
 
 
 )"  >> /Data/Compile/Recipes/GVFS/1.48.1/Recipe
