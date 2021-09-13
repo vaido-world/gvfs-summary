@@ -277,3 +277,11 @@ No package 'libbluray' found
 LibBluray-Dev/1:1.0.2_3/lib/x86_64-linux-gnu/pkgconfig]ls
 libbluray.pc    
 ```
+```
+]find / -name libbluray.pc
+/Data/Variable/run/overlayfs/Programs/LibBluray-Dev/1:1.0.2_3/lib/x86_64-linux-gnu/pkgconfig/libbluray.pc
+/Data/Variable/run/overlayfs/Programs/LibBluray-Dev/1:1.1.0_1/lib/x86_64-linux-gnu/pkgconfig/libbluray.pc
+/Programs/LibBluray-Dev/1:1.0.2_3/lib/x86_64-linux-gnu/pkgconfig/libbluray.pc
+/Programs/LibBluray-Dev/1:1.1.0_1/lib/x86_64-linux-gnu/pkgconfig/libbluray.pc
+
+```
