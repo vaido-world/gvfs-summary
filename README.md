@@ -290,3 +290,5 @@ libbluray.pc
 https://stackoverflow.com/questions/11303730/pkg-config-cannot-find-pc-files-although-they-are-in-the-path
 
 https://askubuntu.com/questions/210210/pkg-config-path-environment-variable
+
+https://github.com/rdp/ffmpeg-windows-build-helpers/issues/267#issuecomment-337050805
