@@ -260,3 +260,15 @@ https://gitlab.freedesktop.org/polkit/polkit/-/merge_requests/35#note_697514
 
 # libgoa
 https://www.google.com/search?q=libgoa-1.0+dev&client=firefox-b-d&ei=9l4-YZKZEIOTrwSu9peQDw&oq=libgoa-1.0+dev&gs_lcp=Cgdnd3Mtd2l6EANKBAhBGAFQw15Y9WBgzGRoAXAAeACAAV6IAY8CkgEBM5gBAKABAcABAQ&sclient=gws-wiz&ved=0ahUKEwiS7ISkn_ryAhWDyYsKHS77BfIQ4dUDCA0&uact=5
+
+
+## libblueray
+
+```
+root@LiveCD ~]/usr/bin/pkg-config --modversion libbluray
+Package libbluray was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libbluray.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libbluray' found
+
+```
