@@ -272,3 +272,8 @@ to the PKG_CONFIG_PATH environment variable
 No package 'libbluray' found
 
 ```
+
+```
+LibBluray-Dev/1:1.0.2_3/lib/x86_64-linux-gnu/pkgconfig]ls
+libbluray.pc    
+```
