@@ -292,3 +292,6 @@ https://stackoverflow.com/questions/11303730/pkg-config-cannot-find-pc-files-alt
 https://askubuntu.com/questions/210210/pkg-config-path-environment-variable
 
 https://github.com/rdp/ffmpeg-windows-build-helpers/issues/267#issuecomment-337050805
+
+
+https://stackoverflow.com/questions/11303730/pkg-config-cannot-find-pc-files-although-they-are-in-the-path/11309122#11309122
