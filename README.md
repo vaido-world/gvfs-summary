@@ -62,6 +62,7 @@ ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/g/gnome-online-acc
 ThirdPartyInstaller  --version-number 1.1.0 http://ftp.us.debian.org/debian/pool/main/libb/libbluray/libbluray-dev_1.1.0-1_amd64.deb
 ThirdPartyInstaller  --version-number 1.1.0 http://ftp.us.debian.org/debian/pool/main/s/samba/smbclient_4.13.5+dfsg-2_amd64.deb
 ThirdPartyInstaller  --version-number 0.6.0 http://ftp.us.debian.org/debian/pool/main/s/samba/libsmbclient-dev_4.13.5+dfsg-2_amd64.deb
+ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/libc/libcdio-paranoia/libcdio-paranoia-dev_10.2+2.0.0-1+b2_amd64.deb
 
 
 
@@ -77,7 +78,8 @@ printf "\nenvironment=(
 /Programs/LibUsbmuxd-Dev/2.0.2_3/lib/x86_64-linux-gnu/pkgconfig:\
 /Programs/LibGoa-1.0-Dev/3.40.0_2/lib/x86_64-linux-gnu/pkgconfig:\
 /Programs/LibBluray-Dev/1.1.0/lib/x86_64-linux-gnu/pkgconfig:\
-/Programs/LibSmbclient-Dev/0.6.0/lib/x86_64-linux-gnu/pkgconfig"
+/Programs/LibSmbclient-Dev/0.6.0/lib/x86_64-linux-gnu/pkgconfig:\
+/Programs/LibCdio-Paranoia-Dev/10.2+2.0.0_1+b2/lib/x86_64-linux-gnu/pkgconfig"
 
 )"  >> /Data/Compile/Recipes/GVFS/1.48.1/Recipe
 
