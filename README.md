@@ -68,7 +68,7 @@ ThirdPartyInstaller http://mirrors.kernel.org/ubuntu/pool/main/libg/libgdata/lib
 ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/libo/liboauth/liboauth-dev_1.0.3-5_amd64.deb
 ThirdPartyInstaller --version-number 3.35 http://security.ubuntu.com/ubuntu/pool/main/n/nss/libnss3-dev_3.35-2ubuntu2.12_amd64.deb
 ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/libg/libgphoto2/libgphoto2-dev_2.5.27-1_amd64.deb
-
+ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/libe/libexif/libexif-dev_0.6.22-3_amd64.deb
 
 
 
@@ -88,7 +88,8 @@ printf "\nenvironment=(
 /Programs/LibGData-Dev/0.18.1_1/lib/x86_64-linux-gnu/pkgconfig:\
 /Programs/LibOAUTH-Dev/1.0.3_5/lib/x86_64-linux-gnu/pkgconfig:\
 /Programs/LibNSS3-Dev/3.35/lib/x86_64-linux-gnu/pkgconfig:\
-/Programs/LibGPhoto2-Dev/2.5.27_1/lib/x86_64-linux-gnu/pkgconfig"
+/Programs/LibGPhoto2-Dev/2.5.27_1/lib/x86_64-linux-gnu/pkgconfig:\
+/Programs/LibExif-Dev/0.6.22_3/lib/x86_64-linux-gnu/pkgconfig"
 
 )"  >> /Data/Compile/Recipes/GVFS/1.48.1/Recipe
 
