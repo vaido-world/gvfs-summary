@@ -64,7 +64,7 @@ ThirdPartyInstaller  --version-number 1.1.0 http://ftp.us.debian.org/debian/pool
 ThirdPartyInstaller  --version-number 0.6.0 http://ftp.us.debian.org/debian/pool/main/s/samba/libsmbclient-dev_4.13.5+dfsg-2_amd64.deb
 ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/libc/libcdio-paranoia/libcdio-paranoia-dev_10.2+2.0.0-1+b2_amd64.deb
 ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/libc/libcdio/libcdio-dev_2.0.0-2_amd64.deb
-ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/libg/libgdata/libgdata-dev_0.17.6-2_amd64.deb
+ThirdPartyInstaller http://mirrors.kernel.org/ubuntu/pool/main/libg/libgdata/libgdata-dev_0.18.1-1_amd64.deb
 ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/libo/liboauth/liboauth-dev_1.0.3-5_amd64.deb
 ThirdPartyInstaller --version-number 3.35 http://security.ubuntu.com/ubuntu/pool/main/n/nss/libnss3-dev_3.35-2ubuntu2.12_amd64.deb
 
@@ -84,7 +84,7 @@ printf "\nenvironment=(
 /Programs/LibSmbclient-Dev/0.6.0/lib/x86_64-linux-gnu/pkgconfig:\
 /Programs/LibCdio-Paranoia-Dev/10.2+2.0.0_1+b2/lib/x86_64-linux-gnu/pkgconfig:\
 /Programs/LibCdio-Dev/2.0.0_2/lib/x86_64-linux-gnu/pkgconfig:\
-/Programs/LibGData-Dev/0.17.6_2/lib/x86_64-linux-gnu/pkgconfig:\
+/Programs/LibGData-Dev/0.18.1_1/lib/x86_64-linux-gnu/pkgconfig:\
 /Programs/LibOAUTH-Dev/1.0.3_5/lib/x86_64-linux-gnu/pkgconfig:\
 /Programs/LibNSS3-Dev/3.35/lib/x86_64-linux-gnu/pkgconfig"
 
