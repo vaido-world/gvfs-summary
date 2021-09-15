@@ -345,3 +345,5 @@ cc  -o metadata/gvfsd-metadata 'metadata/45447b7@@gvfsd-metadata@exe/meta-daemon
 
 
 ```
+
+https://github-wiki-see.page/m/gobolinux/Documentation/wiki/SymlinkProgram
