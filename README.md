@@ -327,6 +327,21 @@ This is interpreted as
 1.1.0_1/lib/x86_64-linux-gnu/pkgconfig  
 ```
 
+### 2021 09 15
+
+```
+
+Just run your build command (e.g. ninja) and Meson will regenerate as necessary.
+If ninja fails, run "ninja reconfigure" or "meson --reconfigure"
+to force Meson to regenerate.
+
+If build failures persist, run "meson setup --wipe" to rebuild from scratch
+using the same options as passed when configuring the build.
+To change option values, run "meson configure" instead.
+[1/155] Linking target metadata/gvfsd-metadata.
+FAILED: metadata/gvfsd-metadata 
+cc  -o metadata/gvfsd-metadata 'metadata/45447b7@@gvfsd-metadata@exe/meta-daemon.c.o' -Wl,--as-needed -Wl,--no-undefined -O2 -fomit-frame-pointer -pipe -Wl,--start-group metadata/libmetadata.a common/libgvfscommon.so /usr/lib/libgio-2.0.so /usr/lib/libgobject-2.0.so /usr/lib/libglib-2.0.so -L/usr/lib/x86_64-linux-gnu -lgudev-1.0 -Wl,--end-group '-Wl,-rpath,$ORIGIN/:$ORIGIN/../common' -Wl,-rpath-link,/Data/Compile/Sources/gvfs-master/_build/metadata -Wl,-rpath-link,/Data/Compile/Sources/gvfs-master/_build/common
+/usr/bin/ld: error: cannot open /usr/lib/x86_64-linux-gnu/libgudev-1.0.so: No such file or directory
 
 
-
+```
