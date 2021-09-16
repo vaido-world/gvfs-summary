@@ -51,8 +51,12 @@ printf "\nmeson_variables=(
         "-Dtmpfilesdir=no"
  )" >> /Data/Compile/Recipes/GVFS/1.48.1/Recipe
 
+# Contains lib/libgudev-1.0.so.0 but does not contain lib/pkgconfig folder 
 ThirdPartyInstaller --symlink yes http://http.us.debian.org/debian/pool/main/libg/libgudev/libgudev-1.0-0_230-3_amd64.deb
+
+contains lib/libgudev-1.0.so contains  lib/pkgconfig folder 
 ThirdPartyInstaller --symlink yes http://ftp.us.debian.org/debian/pool/main/libg/libgudev/libgudev-1.0-dev_237-2_amd64.deb
+
 ThirdPartyInstaller --symlink yes http://ftp.us.debian.org/debian/pool/main/u/udisks2/libudisks2-dev_2.9.3-1_amd64.deb
 ThirdPartyInstaller --symlink yes http://ftp.us.debian.org/debian/pool/main/e/elogind/libelogind-dev_246.9.1-1+debian1_amd64.deb
 ThirdPartyInstaller --symlink yes http://ftp.us.debian.org/debian/pool/main/libu/libusbmuxd/libusbmuxd-dev_2.0.2-3_amd64.deb
