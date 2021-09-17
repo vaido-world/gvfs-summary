@@ -360,3 +360,75 @@ cc  -o metadata/gvfsd-metadata 'metadata/45447b7@@gvfsd-metadata@exe/meta-daemon
 ```
 
 https://github-wiki-see.page/m/gobolinux/Documentation/wiki/SymlinkProgram
+
+
+# polkit policy of gvfs is required
+Error
+```
+  Dependencies
+                bluray: True
+                  fuse: True
+                   gcr: True
+                gcrypt: True
+                 gudev: True
+               keyring: True
+                logind: True
+                libusb: True
+
+           devel_utils: False
+       installed_tests: False
+                   man: False
+
+Found ninja-1.9.0.git.kitware.dyndep-1.jobserver-1 at /usr/bin/ninja
+[101/255] Generating org.gtk.vfs.file...y_daemon_merge with a custom command.
+FAILED: daemon/org.gtk.vfs.file-operations.policy 
+/System/Aliens/PIP/3.8/bin/meson --internal msgfmthelper daemon/org.gtk.vfs.file-operations.policy.in daemon/org.gtk.vfs.file-operations.policy xml /Data/Compile/Sources/gvfs-master/po
+msgfmt: cannot locate ITS rules for daemon/org.gtk.vfs.file-operations.policy.in
+[110/255] Compiling C object 'daemon/...altest@exe/gvfsbackendlocaltest.c.o'.
+ninja: build stopped: subcommand failed.
+Compile: GVFS 1.48.1 - Build failed.
+```
+https://gitlab.gnome.org/GNOME/gvfs/-/issues/508
+
+Searching for .its on the system
+```
+find / -name "*.its"
+/Data/Variable/run/rootfsbase/Programs/Fontconfig/2.13.1/share/gettext/its/fontconfig.its
+/Data/Variable/run/rootfsbase/Programs/GLib/2.63.5/share/gettext/its/gschema.its
+/Data/Variable/run/rootfsbase/Programs/GTK+/3.24.13/share/gettext/its/gtkbuilder.its
+/Data/Variable/run/rootfsbase/Programs/Gettext/0.20.1/share/gettext-0.20/its/glade1.its
+/Data/Variable/run/rootfsbase/Programs/Gettext/0.20.1/share/gettext-0.20/its/glade2.its
+/Data/Variable/run/rootfsbase/Programs/Gettext/0.20.1/share/gettext-0.20/its/gsettings.its
+/Data/Variable/run/rootfsbase/Programs/Gettext/0.20.1/share/gettext-0.20/its/gtkbuilder.its
+/Data/Variable/run/rootfsbase/Programs/Gettext/0.20.1/share/gettext-0.20/its/metainfo.its
+/Data/Variable/run/rootfsbase/Programs/ITSTool/2.0.6/share/itstool/its/docbook.its
+/Data/Variable/run/rootfsbase/Programs/ITSTool/2.0.6/share/itstool/its/docbook5.its
+/Data/Variable/run/rootfsbase/Programs/ITSTool/2.0.6/share/itstool/its/its.its
+/Data/Variable/run/rootfsbase/Programs/ITSTool/2.0.6/share/itstool/its/mallard.its
+/Data/Variable/run/rootfsbase/Programs/ITSTool/2.0.6/share/itstool/its/ttml.its
+/Data/Variable/run/rootfsbase/Programs/ITSTool/2.0.6/share/itstool/its/xhtml.its
+/Data/Variable/run/rootfsbase/System/Index/share/gettext/its/fontconfig.its
+/Data/Variable/run/rootfsbase/System/Index/share/gettext/its/gschema.its
+/Data/Variable/run/rootfsbase/System/Index/share/gettext/its/gtkbuilder.its
+/Data/Variable/run/overlayfs/Programs/GLib/2.68.4/share/gettext/its/gschema.its
+/Data/Variable/run/overlayfs/System/Index/share/gettext/its/gschema.its
+/Programs/Fontconfig/2.13.1/share/gettext/its/fontconfig.its
+/Programs/GLib/2.63.5/share/gettext/its/gschema.its
+/Programs/GLib/2.68.4/share/gettext/its/gschema.its
+/Programs/GTK+/3.24.13/share/gettext/its/gtkbuilder.its
+/Programs/Gettext/0.20.1/share/gettext-0.20/its/glade1.its
+/Programs/Gettext/0.20.1/share/gettext-0.20/its/glade2.its
+/Programs/Gettext/0.20.1/share/gettext-0.20/its/gsettings.its
+/Programs/Gettext/0.20.1/share/gettext-0.20/its/gtkbuilder.its
+/Programs/Gettext/0.20.1/share/gettext-0.20/its/metainfo.its
+/Programs/ITSTool/2.0.6/share/itstool/its/docbook.its
+/Programs/ITSTool/2.0.6/share/itstool/its/docbook5.its
+/Programs/ITSTool/2.0.6/share/itstool/its/its.its
+/Programs/ITSTool/2.0.6/share/itstool/its/mallard.its
+/Programs/ITSTool/2.0.6/share/itstool/its/ttml.its
+/Programs/ITSTool/2.0.6/share/itstool/its/xhtml.its
+/System/Index/share/gettext/its/fontconfig.its
+/System/Index/share/gettext/its/gschema.its
+/System/Index/share/gettext/its/gtkbuilder.its
+
+```
