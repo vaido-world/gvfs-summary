@@ -258,6 +258,9 @@ https://forums.gentoo.org/viewtopic-p-8605365.html?sid=b4f05bf4ce09ed17223919cb5
 ###Disable systemd logind
 https://www.google.com/search?q=disable+logind+meson&oq=disable+logind+meson+&aqs=chrome..69i57.3655j0j7&sourceid=chrome&ie=UTF-8
 
+### Polkits files 
+https://gitlab.gnome.org/GNOME/gvfs/-/issues/508
+
 
 ```
 ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/e/elogind/libelogind-dev_246.9.1-1+debian1_amd64.deb
