@@ -52,6 +52,7 @@ printf "\nmeson_variables=(
  )" >> /Data/Compile/Recipes/GVFS/1.48.1/Recipe
 
 # same same version, both libgudev
+# First party releases https://download.gnome.org/sources/libgudev/237/
 # https://askubuntu.com/questions/921888/when-should-i-install-dev-package
 # http://ftp.us.debian.org/debian/pool/main/libg/libgudev/libgudev-1.0-0_237-2_amd64.deb
 # http://ftp.us.debian.org/debian/pool/main/libg/libgudev/libgudev-1.0-dev_237-2_amd64.deb
