@@ -389,6 +389,7 @@ ninja: build stopped: subcommand failed.
 Compile: GVFS 1.48.1 - Build failed.
 ```
 https://gitlab.gnome.org/GNOME/gvfs/-/issues/508
+https://www.google.com/search?client=firefox-b-d&q=msgfmt%3A+cannot+locate+ITS+rules+for+daemon%2Forg.gtk.vfs.file-operations.policy.in
 
 Searching for .its on the system
 ```
