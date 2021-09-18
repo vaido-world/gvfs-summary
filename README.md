@@ -433,3 +433,7 @@ find / -name "*.its"
 /System/Index/share/gettext/its/gtkbuilder.its
 
 ```
+
+
+### Seems to contain polkit.its file
+https://ubuntu.pkgs.org/18.04/ubuntu-main-amd64/policykit-1_0.105-20_amd64.deb.html
