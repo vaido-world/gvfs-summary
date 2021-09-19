@@ -59,7 +59,7 @@ ThirdPartyInstaller --symlink yes http://ftp.us.debian.org/debian/pool/main/libg
 ThirdPartyInstaller --symlink yes http://ftp.us.debian.org/debian/pool/main/libg/libgudev/libgudev-1.0-0_237-2_amd64.deb
 
 # Keeps asking for managed files to be installed
-ThirdPartyInstaller --symlink "yes" "http://ftp.us.debian.org/debian/pool/main/p/policykit-1/policykit-1_0.105-31_amd64.deb" 
+echo y | ThirdPartyInstaller --symlink "yes" "http://ftp.us.debian.org/debian/pool/main/p/policykit-1/policykit-1_0.105-31_amd64.deb" 
 SymlinkProgram /Programs/LibGudev-1.0-Dev
 SymlinkProgram /Programs/LibSmbclient-Dev
 
