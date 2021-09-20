@@ -58,6 +58,7 @@ printf "\nmeson_variables=(
 ThirdPartyInstaller --symlink yes http://ftp.us.debian.org/debian/pool/main/libg/libgudev/libgudev-1.0-dev_237-2_amd64.deb
 ThirdPartyInstaller --symlink yes http://ftp.us.debian.org/debian/pool/main/libg/libgudev/libgudev-1.0-0_237-2_amd64.deb
 
+
 # Keeps asking for managed files to be installed
 echo y | ThirdPartyInstaller --symlink "yes" "http://ftp.us.debian.org/debian/pool/main/p/policykit-1/policykit-1_0.105-31_amd64.deb" 
 SymlinkProgram /Programs/LibGudev-1.0-Dev
@@ -68,6 +69,10 @@ SymlinkProgram /Programs/LibSmbclient-Dev
 
 contains lib/libgudev-1.0.so contains  lib/pkgconfig folder 
 #ThirdPartyInstaller --symlink yes http://ftp.us.debian.org/debian/pool/main/libg/libgudev/libgudev-1.0-dev_237-2_amd64.deb
+
+ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/libc/libcdio-paranoia/libcdio-cdda-dev_10.2+2.0.0-1+b2_amd64.deb
+
+
 
 ThirdPartyInstaller --symlink yes http://ftp.us.debian.org/debian/pool/main/u/udisks2/libudisks2-dev_2.9.3-1_amd64.deb
 ThirdPartyInstaller --symlink yes http://ftp.us.debian.org/debian/pool/main/e/elogind/libelogind-dev_246.9.1-1+debian1_amd64.deb
