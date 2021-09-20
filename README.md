@@ -72,6 +72,9 @@ contains lib/libgudev-1.0.so contains  lib/pkgconfig folder
 
 ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/libc/libcdio-paranoia/libcdio-cdda-dev_10.2+2.0.0-1+b2_amd64.deb
 
+ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/s/samba/libsmbclient_4.13.5+dfsg-2_amd64.deb
+SymlinkProgram /Programs/LibSmbclient
+
 
 
 ThirdPartyInstaller --symlink yes http://ftp.us.debian.org/debian/pool/main/u/udisks2/libudisks2-dev_2.9.3-1_amd64.deb
