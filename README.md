@@ -456,3 +456,8 @@ policykit-1_0.105-18+deb9u1_amd64.deb\data.tar\.\usr\share\gettext\its\
 
 ### cdio cdda.h 
 https://packages.debian.org/sid/libcdio-cdda-dev
+
+```
+ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/libc/libcdio-paranoia/libcdio-cdda-dev_10.2+2.0.0-1+b2_amd64.deb
+
+```
