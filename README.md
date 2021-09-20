@@ -453,3 +453,6 @@ https://packages.debian.org/stretch/amd64/policykit-1/download
 policykit-1_0.105-18+deb9u1_amd64.deb\data.tar\.\usr\share\gettext\its\
 
 ```
+
+### cdio cdda.h 
+https://packages.debian.org/sid/libcdio-cdda-dev
