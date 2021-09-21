@@ -78,6 +78,9 @@ SymlinkProgram /Programs/LibSmbclient
 
 
 
+
+
+
 ThirdPartyInstaller --symlink yes http://ftp.us.debian.org/debian/pool/main/u/udisks2/libudisks2-dev_2.9.3-1_amd64.deb
 ThirdPartyInstaller --symlink yes http://ftp.us.debian.org/debian/pool/main/e/elogind/libelogind-dev_246.9.1-1+debian1_amd64.deb
 ThirdPartyInstaller --symlink yes http://ftp.us.debian.org/debian/pool/main/libu/libusbmuxd/libusbmuxd-dev_2.0.2-3_amd64.deb
@@ -121,6 +124,27 @@ printf "\nenvironment=(
 /Programs/LibNFS-Dev/1.11.0_2/lib/x86_64-linux-gnu/pkgconfig"
 
 )"  >> /Data/Compile/Recipes/GVFS/1.48.1/Recipe
+
+
+SymlinkProgram /Programs/LibPolkit-Gobject-1-Dev
+SymlinkProgram /Programs/LibGudev-1.0-Dev/
+SymlinkProgram /Programs/LibUdisks2-Dev/
+SymlinkProgram /Programs/LibElogind-Dev/
+SymlinkProgram /Programs/LibImobiledevice-Dev/
+SymlinkProgram /Programs/LibPlist-Dev/
+SymlinkProgram /Programs/LibUsbmuxd-Dev/
+SymlinkProgram /Programs/LibGoa-1.0-Dev/
+SymlinkProgram /Programs/LibBluray-Dev/
+SymlinkProgram /Programs/LibSmbclient-Dev/
+SymlinkProgram /Programs/LibCdio-Paranoia-Dev/
+SymlinkProgram /Programs/LibCdio-Dev/
+SymlinkProgram /Programs/LibGData-Dev/
+SymlinkProgram /Programs/LibOAUTH-Dev/
+SymlinkProgram /Programs/LibNSS3-Dev/
+SymlinkProgram /Programs/LibGPhoto2-Dev/
+SymlinkProgram /Programs/LibExif-Dev/
+SymlinkProgram /Programs/LibMTP-Dev/
+SymlinkProgram /Programs/LibNFS-Dev/
 
 
 
