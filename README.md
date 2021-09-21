@@ -147,6 +147,10 @@ SymlinkProgram /Programs/LibMTP-Dev/
 SymlinkProgram /Programs/LibNFS-Dev/
 
 
+ThirdPartyInstaller http://http.us.debian.org/debian/pool/main/libm/libmtp/libmtp9_1.1.13-1_arm64.deb
+SymlinkProgram /Programs/LibMtp9/
+
+
 
 
 
