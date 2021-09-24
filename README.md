@@ -36,6 +36,9 @@ InstallPackage "https://github.com/vaido-world/Resolving-GLib/raw/main/GLib--2.6
   InstallPackage RPM 5.3.5 --unmanaged install
 echo | InstallPackage ThirdPartyInstallers 
 ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/p/policykit-1/libpolkit-gobject-1-dev_0.119-1_amd64.deb
+ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/p/policykit-1/libpolkit-gobject-1-0_0.119-1_amd64.deb
+SymlinkProgram /Programs/LibPolkit-Gobject-1-0
+SymlinkProgram /Programs/LibPolkit-Gobject-1-Dev
 
 
 echo 'n' | MakeRecipe "GSettings-Desktop-Schemas" "41" "https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas/-/archive/master/gsettings-desktop-schemas-master.tar.bz2"
