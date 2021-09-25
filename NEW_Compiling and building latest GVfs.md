@@ -1,6 +1,7 @@
 
 
 ```
+# https://github.com/gobolinux/Compile/blob/master/bin/UpdateRecipes#L50
 git clone "https://github.com/gobolinux/Recipes.git" "/Data/Compile/Recipes"
 
 
