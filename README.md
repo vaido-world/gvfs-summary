@@ -79,6 +79,8 @@ SymlinkProgram /Programs/LibCdio-CDDA-Dev
 ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/s/samba/libsmbclient_4.13.5+dfsg-2_amd64.deb
 SymlinkProgram /Programs/LibSmbclient
 
+ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/libg/libgphoto2/libgphoto2-port12_2.5.27-1_amd64.deb
+SymlinkProgram /Programs/LibGPhoto2-Port12
 
 
 
