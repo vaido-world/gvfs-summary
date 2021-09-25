@@ -1,4 +1,10 @@
+
+
 ```
+git clone "https://github.com/gobolinux/Recipes.git" "/Data/Compile/Recipes"
+
+
+
 
 ThirdPartyInstaller --symlink yes http://ftp.us.debian.org/debian/pool/main/u/udisks2/libudisks2-dev_2.9.3-1_amd64.deb
 ThirdPartyInstaller --symlink yes http://ftp.us.debian.org/debian/pool/main/e/elogind/libelogind-dev_246.9.1-1+debian1_amd64.deb
