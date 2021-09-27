@@ -46,6 +46,6 @@ ThirdPartyInstaller  --version-number 1.3.0 http://ftp.us.debian.org/debian/pool
 
 ```
 # Previous Method to Download Recipes from GoboLinux GitHub Repository
-# Compile "Nothing"
+Compile "Nothing"
 
 ```
