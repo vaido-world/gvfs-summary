@@ -43,7 +43,7 @@ ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/g/gnome-online-acc
 ThirdPartyInstaller  --version-number 1.3.0 http://ftp.us.debian.org/debian/pool/main/libb/libbluray/libbluray2_1.3.0-3_amd64.deb
 
 ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/libc/libcdio/libcdio19_2.1.0-2_amd64.deb
-
+ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/libg/libgdata/libgdata22_0.18.1-2_amd64.deb
 ```
 
 ### Notes
