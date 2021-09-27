@@ -33,7 +33,7 @@ ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/libm/libmtp/libmtp
 ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/libn/libnfs/libnfs-dev_1.11.0-2_amd64.deb
 
 
-# dev
+# lib
 ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/u/udisks2/libudisks2-0_2.9.3-1_amd64.deb
 ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/e/elogind/elogind_246.9.1-1+debian1_amd64.
 ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/libu/libusbmuxd/libusbmuxd6_2.0.2-3_amd64.deb
