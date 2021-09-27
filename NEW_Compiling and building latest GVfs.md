@@ -1,8 +1,6 @@
 
 
 ```
-# Previous Method to Download Recipes from GoboLinux GitHub Repository
-# Compile "Nothing"
 
 # Download Recipes from GoboLinux GitHub Repository
 # https://github.com/gobolinux/Compile/blob/master/bin/UpdateRecipes#L50
@@ -41,5 +39,13 @@ ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/libi/libimobiledev
 ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/libp/libplist/libplist3_2.2.0-6_amd64.deb
 ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/g/gnome-online-accounts/libgoa-1.0-dev_3.40.0-2_amd64.deb
 ThirdPartyInstaller  --version-number 1.3.0 http://ftp.us.debian.org/debian/pool/main/libb/libbluray/libbluray2_1.3.0-3_amd64.deb
+
+```
+
+### Notes
+
+```
+# Previous Method to Download Recipes from GoboLinux GitHub Repository
+# Compile "Nothing"
 
 ```
