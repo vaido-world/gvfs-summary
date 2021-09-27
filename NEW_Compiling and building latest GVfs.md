@@ -18,8 +18,10 @@ ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/libi/libimobiledev
 ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/libp/libplist/libplist-dev_2.2.0-6_amd64.deb
 ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/g/gnome-online-accounts/libgoa-1.0-dev_3.40.0-2_amd64.deb
 ThirdPartyInstaller  --version-number 1.3.0 http://ftp.us.debian.org/debian/pool/main/libb/libbluray/libbluray-dev_1.3.0-3_amd64.deb
+
 ThirdPartyInstaller  --version-number 1.1.0 http://ftp.us.debian.org/debian/pool/main/s/samba/smbclient_4.13.5+dfsg-2_amd64.deb
 ThirdPartyInstaller  --version-number 0.6.0 http://ftp.us.debian.org/debian/pool/main/s/samba/libsmbclient-dev_4.13.5+dfsg-2_amd64.deb
+
 ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/libc/libcdio-paranoia/libcdio-paranoia-dev_10.2+2.0.0-1+b2_amd64.deb
 ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/libc/libcdio/libcdio-dev_2.0.0-2_amd64.deb
 ThirdPartyInstaller http://mirrors.kernel.org/ubuntu/pool/main/libg/libgdata/libgdata-dev_0.18.1-1_amd64.deb
@@ -40,7 +42,7 @@ ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/libp/libplist/libp
 ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/g/gnome-online-accounts/libgoa-1.0-dev_3.40.0-2_amd64.deb
 ThirdPartyInstaller  --version-number 1.3.0 http://ftp.us.debian.org/debian/pool/main/libb/libbluray/libbluray2_1.3.0-3_amd64.deb
 
-ThirdPartyInstaller  --version-number 0.6.0
+
 ```
 
 ### Notes
