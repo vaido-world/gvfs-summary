@@ -39,7 +39,6 @@ ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/e/elogind/elogind_
 ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/libu/libusbmuxd/libusbmuxd6_2.0.2-3_amd64.deb
 ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/libi/libimobiledevice/libimobiledevice6_1.3.0-6_amd64.deb
 ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/libp/libplist/libplist3_2.2.0-6_amd64.deb
-ThirdPartyInstaller https://packages.debian.org/sid/amd64/libgoa-1.0-dev/download
 ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/g/gnome-online-accounts/libgoa-1.0-dev_3.40.0-2_amd64.deb
 
 ```
