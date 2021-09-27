@@ -42,6 +42,7 @@ ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/libp/libplist/libp
 ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/g/gnome-online-accounts/libgoa-1.0-dev_3.40.0-2_amd64.deb
 ThirdPartyInstaller  --version-number 1.3.0 http://ftp.us.debian.org/debian/pool/main/libb/libbluray/libbluray2_1.3.0-3_amd64.deb
 
+ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/libc/libcdio/libcdio19_2.1.0-2_amd64.deb
 
 ```
 
